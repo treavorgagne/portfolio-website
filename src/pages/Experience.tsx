@@ -12,7 +12,7 @@ import {
 
 export const Experience = () => {
   return (
-    <Box mx={"auto"} maxWidth={"1200px"}>
+    <Box mx={"auto"} maxWidth={"1000px"}>
       <Grid templateRows="repeat(1, 1fr)" templateColumns="repeat(1, 1fr)">
         <GridItem w={"100%"} h={"100%"} rowSpan={1} colSpan={1}>
           <Text fontWeight={"500"} fontSize={["20px", "24px", "32px"]}>

@@ -13,7 +13,7 @@ import {
 
 export const Porfolio = () => {
   return (
-    <Box mx={"auto"} maxWidth={"1200px"}>
+    <Box mx={"auto"} maxWidth={"1000px"}>
       <Grid templateRows="repeat(1, 1fr)" templateColumns="repeat(1, 1fr)">
         <GridItem
           w={"100%"}
