@@ -17,7 +17,7 @@ import { Footer } from "./components/Footer";
 export const App = () => (
   <ChakraProvider theme={theme}>
     <Box w={"100%"} h={"100vh"}>
-      <Tabs defaultIndex={1} size={["md", "md", "lg"]} isFitted>
+      <Tabs defaultIndex={0} size={["md", "md", "lg"]} isFitted>
         <Navigation />
         <TabPanels>
           <TabPanel>
