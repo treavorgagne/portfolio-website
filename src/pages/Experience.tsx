@@ -29,9 +29,6 @@ export const Experience = () => {
                 </Heading>
               </Box>
               <Box>
-                <Text fontWeight={"600"} fontSize={["md", "lg", "lg"]}>
-                  Description:
-                </Text>
                 <Text fontWeight={"500"} my={1}>
                   {exp.description}
                 </Text>

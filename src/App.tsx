@@ -31,7 +31,7 @@ export const App = () => (
           </TabPanel>
         </TabPanels>
       </Tabs>
-      <Divider></Divider>
+      <Divider />
       <Footer />
     </Box>
   </ChakraProvider>
