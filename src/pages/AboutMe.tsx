@@ -1,13 +1,5 @@
 import * as React from "react";
-import {
-  Box,
-  Text,
-  Stack,
-  Grid,
-  GridItem,
-  Image,
-  Code,
-} from "@chakra-ui/react";
+import { Box, Text, Stack, Image, Code } from "@chakra-ui/react";
 import Headshot from "../Headshot.jpg";
 
 export const About = () => {
