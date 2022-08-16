@@ -13,10 +13,10 @@ import { RiMailSendFill } from "react-icons/ri";
 export const Footer = () => {
   const { colorMode } = useColorMode();
   return (
-    <Box minHeight={"10vh"}>
+    <Box minHeight={"60px"}>
       <HStack
         mx={"auto"}
-        h={"10vh"}
+        h={"60px"}
         maxWidth={"600px"}
         justify={"space-around"}
         align={"center"}
