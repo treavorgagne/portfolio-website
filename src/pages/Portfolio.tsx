@@ -111,7 +111,7 @@ const projects = [
     description: `This is the static portfolio project you're currently navigating. This 
       portfolio showcases my Front-end skils, projects, and work experience I have done over the past 5 years 
       at UVic and on Co-ops. I developed this portfolio website using Chakra UI a React component
-      library and typescript. Currently, it is being hosted using AWS Amplify on a Route 53 custom domain.`,
+      library and typescript. Currently, hosted using AWS Amplify on a Route 53 custom domain.`,
   },
   {
     id: "horoscope",
@@ -157,7 +157,7 @@ const projects = [
       in my last year at UVic. For this project our group was tasked with creating a scalable mock 
       Day Trading Application. While most groups for this project used Docker to scale their applications
       client, server, and database instances our group uploaded our Docker instances to AWS to be auto scaled. 
-      During this project, I got further familiar with AWS and Docker. I also learned the important concepts and 
+      During this project, I got further familiar with AWS (RDS, Lambda, EC2, and S3) and Docker. I also learned the important concepts and 
       difficulties of scaling software.`,
   },
   {

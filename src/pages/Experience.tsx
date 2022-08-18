@@ -179,8 +179,9 @@ const experiences = [
       `An 8-month start-up developing two full-stack applications related to a standing desk including a web-application and an 
       ecommerce website hosted on Heroku. The web-application was used to view usage data for users of the desk and the ecommerce 
       site was used to purchase and customize the desk. For this co-op, I got to directly interact with the client to deliver code and receive 
-      immediate feedback on the changes made. On this co-op, I got to touch a wide range of programming stack
-      and tools, such as PostgreSQL, MongoDB, and Heroku for CI/CD deployment.`,
+      immediate feedback on the changes made. As such, I implemented a cart checkout feature for the ecommerce website and a feature to view 
+      desk current and past uasge data on the web-app. On this co-op, I got to touch a wide range of programming stack and tools, such as PostgreSQL, MongoDB, 
+      and Heroku for CI/CD deployment.`,
     ],
   },
   {
