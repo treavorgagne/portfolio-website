@@ -130,7 +130,7 @@ const projects = [
     name: "Embedded ARM Machine RGB to YCC Conversion",
     stacks: ["C", "Python", "Assembly", "Hardware"],
     tools: ["ARM 32 bit Machine"],
-    descriptions: `This was an embedded final group project for the Embedded Systems course I took in 
+    description: `This was an embedded final group project for the Embedded Systems course I took in 
       my last semester at UVic. For this project, our group developed an embedded C program to perform color 
       conversion which took .bmp images in RGB formated and converted them to a smaller YCC format. We optmised our code using various 
       embedded optimisation techniques, such as loop unrolling and operation strength reduction. We also designed
