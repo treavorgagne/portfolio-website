@@ -132,8 +132,8 @@ const projects = [
     tools: ["ARM 32 bit Machine"],
     description: `This was an embedded final group project for the Embedded Systems course I took in 
       my last semester at UVic. For this project, our group developed an embedded C program to perform color 
-      conversion which took .bmp images in RGB formated and converted them to a smaller YCC format. We optmised our code using various 
-      embedded optimisation techniques, such as loop unrolling and operation strength reduction. We also designed
+      conversion which took a .bmp image in RGB format and converted it to a smaller YCC format. We optmised our code using various 
+      embedded optimisation techniques, such as loop unrolling and operation strength reduction. I also designed
       a hardware assist circuitry for the ARM system to further optimize the RGB to YCC conversion. I learned how 
       to optimize C code during this project using various techniques.`,
   },
