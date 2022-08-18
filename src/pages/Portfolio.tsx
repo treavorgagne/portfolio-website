@@ -107,11 +107,11 @@ const projects = [
     id: "website",
     name: "Portfolio Website",
     stacks: ["React.tsx", "Typescript", "Chakra UI"],
-    tools: ["GitHub", "Netlify"],
+    tools: ["GitHub", "AWS"],
     description: `This is the static portfolio project you're currently navigating. This 
       portfolio showcases my Front-end skils, projects, and work experience I have done over the past 5 years 
       at UVic and on Co-ops. I developed this portfolio website using Chakra UI a React component
-      library and typescript.`,
+      library and typescript. Currently, it is being hosted using AWS Amplify on a Route 53 custom domain.`,
   },
   {
     id: "horoscope",

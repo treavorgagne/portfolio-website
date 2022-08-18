@@ -129,14 +129,16 @@ const experiences = [
       Schedule Generation Algorithm (Alg 1), and Course Capacity Prediction Algorithm (Alg 2).`,
       `Team members of my company were assigned to 1 of 4 sub-teams (Front-end, Back-end, Alg 1, and Alg 2). In addition, some 
       members of each sub-team were apart of an integration guild along with members of the company we were doing plug and play with. 
-      The integration guild was responsible for deployment of each micro-service, testing, and communication specification changes among both
+      The integration guild was responsible for deploying each the applications micro-service, testing, and communicating specification changes among both
       sub-teams and companies. Ultimately, I was apart of the Alg 1 sub-team and the integration guild. As mentioned previously,
       the Alg 1 sub-team was responsible for generating schedules. For our solution we used Golang in order to make the algorithm as 
       fast as possible. Ultimately, our solution was a genetic algorithm and performed various simulation on a population set in order 
-      to find an improved schedule after each simulation. Largely, my contribution to our solution focused on developing algorithm constraints 
-      to avoid infeasible schedules where say a professor teaches two courses at the same time. Furthermore, as a part of the guild 
-      I created various unit and integration tests testing Alg-1 and plug and play with it. Furthermore, I helped develop a algorithm 
-      to check if a manually editted schedule via the Front-end is correct or not.`,
+      to find an improved schedule after each simulation. Largely, my contribution to our solution focused on developing algorithmic constraints 
+      to avoid infeasible schedules, such as a professor teaches two courses at the same time. Furthermore, as a part of the guild 
+      I created various unit and integration tests testing features related to plug and play with either companies Alg 1. Furthermore, I helped develop a route 
+      callable by the Front-end to check if a manually editted schedule is still valid. Overall, our application was able to generate schedules with an execution 
+      time ranging from 2 to 5 seconds end to end depending on the size of the course and professor input. Where end to end is Front-end to Back-end to Alg 2 to 
+      Alg1 back to Back-end and finally back to Front-end with the generated schedule.`,
       `For this project, our company followed and used many best agile software development practices, such as sprint planning and retros. 
       Ultimately, this project allowed myself to apply and learn a lot of new techinical and soft skills in many different avenues of 
       Software Engineering.`,
@@ -152,7 +154,7 @@ const experiences = [
       `An 8-month Government Co-op at the Canadien Hazards Information Services (CHIS) branch at National Resource Canada (NRCan) as a Software Developer. Worked in 
       a Full-Stack capacity using the LAMP stack (Linux, Apache, MySQL, PHP). For this co-op I was tasked with improving old and developing new 
       features showcasing seismic data from the Western Canada Deformation Array. Features included creating real-time data visualization graphs 
-      for each seismic station over time and station status tables. All features were complient with Web Content Accessibility Guidelines for 
+      for each seismic station over time, station status tables, among others. All features were complient with Web Content Accessibility Guidelines for 
       those with visual or other imparments. In addtion, all features were developed with English and French suport for all citizens in Canada. 
       I also optimized some legacy aggregate and group by SQL queries improving runtime up to 50% in some cases.`,
     ],
@@ -175,7 +177,7 @@ const experiences = [
     practices: ["Agile Development", "Start-Up", "CI/CD"],
     description: [
       `An 8-month start-up developing two full-stack applications related to a standing desk including a web-application and an 
-      ecommerce website hosted on Heroku. Where the web-application was used to view usage data for users of the desk and the ecommerce 
+      ecommerce website hosted on Heroku. The web-application was used to view usage data for users of the desk and the ecommerce 
       site was used to purchase and customize the desk. For this co-op, I got to directly interact with the client to deliver code and receive 
       immediate feedback on the changes made. On this co-op, I got to touch a wide range of programming stack
       and tools, such as PostgreSQL, MongoDB, and Heroku for CI/CD deployment.`,
@@ -188,7 +190,7 @@ const experiences = [
     tools: ["Heroku", "GitLab", "Rocket.Chat"],
     practices: ["Agile Development", "UX to UI"],
     description: [
-      `Part-time position developing a static website using React.js to bring solar initiative start-up website to life. Transformed wireframes designed 
+      `Part-time position developing a static website using React.js to bring a solar initiative start-up website to life. Transformed wireframes designed 
        by the UX team to functional React.js code which was mobile friendly. Improved Front-end skills and knowledge.`,
     ],
   },
