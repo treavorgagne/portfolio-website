@@ -121,7 +121,7 @@ const projects = [
       library and typescript. Currently, hosted using AWS Amplify on a Route 53 custom domain.`,
   },
   {
-    id: "pomodore",
+    id: "pomodoro",
     name: "Pomodoro timer and to do list",
     stacks: ["React.js", "JavaScript", "Chakra UI"],
     tools: ["GitHub", "Netlify"],
@@ -129,8 +129,8 @@ const projects = [
     description: `This is a static React.js wep application I developed to manage my time better using pomodoro principals. 
       For this project, I used React hooks to manage the states for the timer and list components of the applicaiton. The 
       general idea behind this application is to make a to do list and complete tasks during the work timer phases and take 
-      breaks during the break phases to avoid burnout. This project is supported for both web and mobile view, so feel free to 
-      use it anytime and anywhere.`,
+      breaks during the break phases to avoid burnout. This project is supported for both web and mobile view with the help of Chakra UI, 
+      so feel free to use it anytime and anywhere.`,
   },
   {
     id: "horoscope",
