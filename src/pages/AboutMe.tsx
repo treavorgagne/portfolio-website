@@ -31,12 +31,13 @@ export const About = () => {
             development experience.
           </Text>
           <Text pt={2}>
-            At UVic, I completed 16 months of Co-ops and some part-time work in
-            industry gaining Full-Stack experience. While using a wide range of
-            tech stacks and agile developement practices.
+            At the University of Victoria (UVic), I completed 16 months of
+            co-ops and part-time work in industry. I gained Full-Stack
+            experience while using a wide range of new tech stacks and agile
+            development practices.
           </Text>
           <Text pt={2}>
-            I have completed a number of academic and personal projects using
+            I completed a number of academic and personal projects using
             different programming languages and development tools. My favourite
             language to use is{" "}
             <Code fontSize={["18px", "24px", "26px", "28px"]}>Golang</Code>{" "}

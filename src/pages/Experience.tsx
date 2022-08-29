@@ -135,13 +135,12 @@ const experiences = [
       fast as possible. Ultimately, our solution was a genetic algorithm and performed various simulation on a population set in order 
       to find an improved schedule after each simulation. Largely, my contribution to our solution focused on developing algorithmic constraints 
       to avoid infeasible schedules, such as a professor teaches two courses at the same time. Furthermore, as a part of the guild 
-      I created various unit and integration tests testing features related to plug and play with either companies Alg 1. Furthermore, I helped develop a route 
-      callable by the Front-end to check if a manually editted schedule is still valid. Overall, our application was able to generate schedules with an execution 
+      I created various unit and integration tests testing features related to plug and play with either companies Alg 1. Lastly, I helped develop a route 
+      callable by the Front-end to check if a manually edited schedule is still valid. Overall, our application was able to generate schedules with an execution 
       time ranging from 2 to 5 seconds end to end depending on the size of the course and professor input. Where end to end is Front-end to Back-end to Alg 2 to 
       Alg1 back to Back-end and finally back to Front-end with the generated schedule.`,
       `For this project, our company followed and used many best agile software development practices, such as sprint planning and retros. 
-      Ultimately, this project allowed myself to apply and learn a lot of new techinical and soft skills in many different avenues of 
-      Software Engineering.`,
+      Ultimately, this project gave me the opportunity apply and learn new technical and soft skills in multiple areas in the software development lifecycle.`,
     ],
   },
   {

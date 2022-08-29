@@ -23,8 +23,8 @@ export const Porfolio = () => {
           // bg="papayawhip"
         >
           <Text fontSize={["20px", "24px", "32px"]}>
-            Here is a list of all my in progress and completed projects I have
-            developed. For a closer look feel free to take a look at my{" "}
+            Here is a list of my in-progress and completed projects. For a
+            closer look feel free to visit my{" "}
             <Link
               href="https://github.com/treavorgagne?tab=repositories"
               target="_blank"
