@@ -1,7 +1,11 @@
 # portfolio-website
 Static portfolio website developed using Chakra a React component library.
 
-## Available Scripts
+## link
+
+https://treavorgagne.com
+
+## available Scripts
 
 In the project directory, you can run:
 
