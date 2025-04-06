@@ -1,4 +1,3 @@
-import * as React from "react";
 import {
   Box,
   Grid,
@@ -10,6 +9,7 @@ import {
   TagLabel,
   Tag,
 } from "@chakra-ui/react";
+import projects from "../assets/projects.json";
 
 export const Porfolio = () => {
   return (
@@ -107,116 +107,3 @@ export const Porfolio = () => {
     </Box>
   );
 };
-
-const projects = [
-  {
-    id: "website",
-    name: "Portfolio Website",
-    stacks: ["React.tsx", "Typescript", "Chakra UI"],
-    tools: ["GitHub", "AWS"],
-    link: "https://www.treavorgagne.com",
-    description: `This is the static portfolio project you're currently navigating. This 
-      portfolio showcases my Front-end skils, projects, and work experience I have done over the past 5 years 
-      at UVic and on Co-ops. I developed this portfolio website using Chakra UI a React component
-      library and typescript. Currently, hosted using AWS Amplify on a Route 53 custom domain.`,
-  },
-  {
-    id: "pomodoro",
-    name: "Pomodoro timer and to do list",
-    stacks: ["React.js", "JavaScript", "Chakra UI"],
-    tools: ["GitHub", "Netlify"],
-    link: "https://www.pptl.netlify.app/",
-    description: `This is a static React.js wep application I developed to manage my time better using pomodoro principals. 
-      For this project, I used React hooks to manage the states for the timer and list components of the applicaiton. The 
-      general idea behind this application is to make a to do list and complete tasks during the work timer phases and take 
-      breaks during the break phases to avoid burnout. This project is supported for both web and mobile view with the help of Chakra UI, 
-      so feel free to use it anytime and anywhere.`,
-  },
-  {
-    id: "horoscope",
-    name: "Horoscope Generator",
-    stacks: ["React.tsx", "Typescript"],
-    tools: ["GitHub", "Netlify"],
-    link: "https://www.horoscope-gen.netlify.app/",
-    description: `A simple 10 hour project I developed. In all honestly, I think astrology 
-      isn't really scientific in the slightest. I think the whole thing is a bit of a stretch, but 
-      for those who like it to each your own. So as a joke this application produces the same 
-      horoscope for all 12 zodiac signs (hehe). The horoscopes are general enough that they 
-      suit any sign hence the joke. Ultimately, I developed this application to develop my 
-      React.tsx skills further. As well, as developing a mobile friendly application.`,
-  },
-  {
-    id: "arm",
-    name: "Embedded ARM Machine RGB to YCC Conversion",
-    stacks: ["C", "Python", "Assembly", "Hardware"],
-    tools: ["ARM 32 bit Machine"],
-    link: "https://github.com/treavorgagne/Arm-Project",
-    description: `This was an embedded final group project for the Embedded Systems course I took in 
-      my last semester at UVic. For this project, our group developed an embedded C program to perform color 
-      conversion which took a .bmp image in RGB format and converted it to a smaller YCC format. We optimized our code using various 
-      embedded optimization techniques, such as loop unrolling and operation strength reduction. I also designed
-      a hardware assist circuitry for the ARM system to further optimize the RGB to YCC conversion. I learned how 
-      to optimize C code during this project using various techniques.`,
-  },
-  {
-    id: "redis",
-    name: "Redis Bookstore Cache",
-    stacks: ["Express", "Node.js", "JavaScript", "Redis", "Docker"],
-    tools: ["GitHub", "Docker"],
-    link: "https://github.com/treavorgagne/redis-nodejs-app",
-    description: `Another 10 hour project I developed. This application allows users to order 
-      books from a made up bookstore. All orders are stored in a dockerized Redis Cache database. 
-      After ordering the user get some funny prompts in return response to their order. The purpose 
-      of this project was to familiarize myself with more NoSql database types and dockerizing application 
-      components.`,
-  },
-  {
-    id: "trading",
-    name: "Scalability Day Trading Project",
-    stacks: ["React.js", "Express", "Node.js", "JavaScript", "PostgreSQL"],
-    tools: ["GitHub", "AWS", "Docker"],
-    link: "https://github.com/treavorgagne/mock-day-trading-system",
-    description: `This was the final group project for the Software System Scalability course I took
-      in my last year at UVic. For this project our group was tasked with creating a scalable mock 
-      Day Trading Application. While most groups for this project used Docker to scale their applications
-      client, server, and database instances our group uploaded our Docker instances to AWS to be auto scaled. 
-      During this project, I got further familiar with AWS (RDS, Lambda, EC2, and S3) and Docker. I also learned the important concepts and 
-      difficulties of scaling software.`,
-  },
-  {
-    id: "lp",
-    name: "Linear Programming Solver",
-    stacks: ["Python"],
-    tools: ["GitHub", "SSH"],
-    link: "https://github.com/treavorgagne/LP-Solver",
-    description: `This was the final project for the Linear Programming course I took at UVIc. For this project, I 
-      developed a linear program solver using Python. The solver takes a series of unsolved linear equations 
-      and produces an optimal solution if it exists. The solver will also determine if the series is infeasible to 
-      solve. During this course, I learned a about more about graph theory and linear optimization.`,
-  },
-  {
-    id: "tdr",
-    name: "Top Down Royal (TDR)",
-    stacks: ["C++", "TCP", "UDP", "Object Orientated"],
-    tools: ["Make"],
-    link: "https://github.com/treavorgagne/TDR",
-    description: `This was the final group project for the Software Architecture and Design course I took at UVic.
-      This project was an online multiplayer 2-D shooter battle royale game using TCP and UDP network connections to send packets 
-      of information between all the players in the game. The game supported 2 to 150 players. I a big hand in programming 
-      the game mechanics and designing the overall system architecture. Created map, players, hit detection, spawning, shooting, 
-      movements, and debugging various portions of the game. I used object orientated C++ to write modular code of classes to make 
-      the game extensible for further content.`,
-  },
-  {
-    id: "sql",
-    name: "ACID Complient SQL Airport Database",
-    stacks: ["PostgreSQL", "Python"],
-    tools: ["GitHub", "SSH"],
-    link: "https://github.com/treavorgagne/postgres-airport",
-    description: `This was the final project for the Database Systems course I took at UVIc. For this project, I 
-      developed a mock airport scheduling PostgreSQL database system. In addition, I developed a set database constraints 
-      to avoid invalid database entries, such as improper take off or and landing locations for given set of flights. To 
-      maintain ACID principals of the database system I used transactions and rollbacks before commiting any data to the 
-      database. This course taught me how to design and develop ACID complient SQL databases.`,
-  },
-];

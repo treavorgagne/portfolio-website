@@ -1,4 +1,3 @@
-import * as React from "react";
 import { Tab, TabList } from "@chakra-ui/react";
 import { ColorModeSwitcher } from "./ColorModeSwitcher";
 

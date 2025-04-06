@@ -1,0 +1,74 @@
+[
+  {
+    "id": "website",
+    "name": "Portfolio Website",
+    "stacks": ["React.tsx", "Typescript", "Chakra UI"],
+    "tools": ["GitHub", "AWS"],
+    "link": "https://www.treavorgagne.com",
+    "description": "This is the static portfolio project you're currently navigating. This portfolio showcases my Front-end skills, projects, and work experience I have done over the past 5 years at UVic and on Co-ops. I developed this portfolio website using Chakra UI, a React component library, and TypeScript. Currently, hosted using AWS Amplify on a Route 53 custom domain."
+  },
+  {
+    "id": "pomodoro",
+    "name": "Pomodoro timer and to do list",
+    "stacks": ["React.js", "JavaScript", "Chakra UI"],
+    "tools": ["GitHub", "Netlify"],
+    "link": "https://www.pptl.netlify.app/",
+    "description": "This is a static React.js web application I developed to manage my time better using Pomodoro principles. The general idea behind this application is to make a to-do list and complete tasks during the work timer phases and take breaks during the break phases to avoid burnout."
+  },
+  {
+    "id": "horoscope",
+    "name": "Horoscope Generator",
+    "stacks": ["React.tsx", "Typescript"],
+    "tools": ["GitHub", "Netlify"],
+    "link": "https://www.horoscope-gen.netlify.app/",
+    "description": "A simple 10-hour project I developed. This application produces the same horoscope for all 12 zodiac signs as a joke. Ultimately, I developed this application to improve my React.tsx skills and develop a mobile-friendly application."
+  },
+  {
+    "id": "arm",
+    "name": "Embedded ARM Machine RGB to YCC Conversion",
+    "stacks": ["C", "Python", "Assembly", "Hardware"],
+    "tools": ["ARM 32 bit Machine"],
+    "link": "https://github.com/treavorgagne/Arm-Project",
+    "description": "This was an embedded final group project for the Embedded Systems course I took in my last semester at UVic. Our group developed an embedded C program to perform color conversion, optimizing it with embedded techniques. I also designed hardware assist circuitry for the ARM system."
+  },
+  {
+    "id": "redis",
+    "name": "Redis Bookstore Cache",
+    "stacks": ["Express", "Node.js", "JavaScript", "Redis", "Docker"],
+    "tools": ["GitHub", "Docker"],
+    "link": "https://github.com/treavorgagne/redis-nodejs-app",
+    "description": "This application allows users to order books from a mock bookstore. Orders are stored in a Dockerized Redis Cache database. The project helped me familiarize myself with NoSQL databases and dockerizing app components."
+  },
+  {
+    "id": "trading",
+    "name": "Scalability Day Trading Project",
+    "stacks": ["React.js", "Express", "Node.js", "JavaScript", "PostgreSQL"],
+    "tools": ["GitHub", "AWS", "Docker"],
+    "link": "https://github.com/treavorgagne/mock-day-trading-system",
+    "description": "Our group project for the Software System Scalability course at UVic involved creating a scalable mock day trading app. We used AWS and Docker to scale the system, and I became more familiar with AWS and scaling software."
+  },
+  {
+    "id": "lp",
+    "name": "Linear Programming Solver",
+    "stacks": ["Python"],
+    "tools": ["GitHub", "SSH"],
+    "link": "https://github.com/treavorgagne/LP-Solver",
+    "description": "A final project for the Linear Programming course at UVic, where I developed a Python-based linear programming solver that determines optimal solutions to linear equations."
+  },
+  {
+    "id": "tdr",
+    "name": "Top Down Royal (TDR)",
+    "stacks": ["C++", "TCP", "UDP", "Object-Oriented"],
+    "tools": ["Make"],
+    "link": "https://github.com/treavorgagne/TDR",
+    "description": "A multiplayer online battle royale game I developed for the Software Architecture and Design course at UVic. The game uses TCP and UDP connections, and I helped design the game mechanics and system architecture."
+  },
+  {
+    "id": "sql",
+    "name": "ACID Compliant SQL Airport Database",
+    "stacks": ["PostgreSQL", "Python"],
+    "tools": ["GitHub", "SSH"],
+    "link": "https://github.com/treavorgagne/postgres-airport",
+    "description": "A final project for the Database Systems course at UVic, where I developed a PostgreSQL-based airport scheduling database, maintaining ACID principles using transactions and rollbacks."
+  }
+]

@@ -1,6 +1,5 @@
-import * as React from "react";
 import { Box, Text, Stack, Image, Code } from "@chakra-ui/react";
-import Headshot from "../Headshot.jpg";
+import Headshot from "../assets/Headshot.jpg";
 
 export const About = () => {
   return (
