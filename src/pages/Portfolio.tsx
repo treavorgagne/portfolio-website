@@ -15,13 +15,7 @@ export const Porfolio = () => {
   return (
     <Box mx={"auto"} maxWidth={"1000px"}>
       <Grid templateRows="repeat(1, 1fr)" templateColumns="repeat(1, 1fr)">
-        <GridItem
-          w={"100%"}
-          h={"100%"}
-          rowSpan={1}
-          colSpan={1}
-          // bg="papayawhip"
-        >
+        <GridItem w={"100%"} h={"100%"} rowSpan={1} colSpan={1}>
           <Text fontSize={["20px", "24px", "32px"]}>
             Here is a list of my in-progress and completed projects. For a
             closer look feel free to visit my{" "}

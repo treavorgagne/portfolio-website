@@ -1,4 +1,4 @@
-import { Box, Text, Stack, Image, Code } from "@chakra-ui/react";
+import { Box, Text, Stack, Image, Code, Link } from "@chakra-ui/react";
 import Headshot from "../assets/Headshot.jpg";
 
 export const About = () => {
@@ -25,27 +25,40 @@ export const About = () => {
       <Stack direction={"column"}>
         <Box fontSize={["18px", "24px", "26px", "28px"]}>
           <Text pt={2}>
-            I recently graduated with a Bachelor of Software Engineering (BSEng)
-            from the University of Victoria. I have almost 4 years software
-            development experience.
+            Currently, I am a Software Developer at{" "}
+            <Link
+              href="https://www.ssicanada.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              color="teal.600"
+            >
+              SSi Canada
+            </Link>{" "}
+            with over 5 years of experience, including full-time, part-time, and
+            co-op positions. In 2022, I completed my Bachelor of Software
+            Engineering (BSEng) with Honors from the University of Victoria
+            (UVic).
           </Text>
           <Text pt={2}>
-            At the University of Victoria (UVic), I completed 16 months of
-            co-ops and part-time work in industry. I gained Full-Stack
-            experience while using a wide range of new tech stacks and agile
-            development practices.
+            I have a strong background in full-stack software development,
+            working with Node.js frameworks such as React.js and Express.js. I
+            also have experience with both relational and non-relational
+            databases, including MySQL and MongoDB, and am proficient in various
+            software tools like Git, Postman, Splunk, and Twilio. With my broad
+            software knowledge and experience, I am confident in my ability to
+            quickly adapt to new programming languages and technologies.
           </Text>
           <Text pt={2}>
-            I completed a number of academic and personal projects using
-            different programming languages and development tools. My favourite
-            language to use is{" "}
-            <Code fontSize={["18px", "24px", "26px", "28px"]}>Golang</Code>{" "}
-            because of its simplicity and performance benefits.
+            I have worked on various academic and personal projects using a
+            range of programming languages and development tools. My preferred
+            language is{" "}
+            <Code fontSize={["18px", "24px", "26px", "28px"]}>Golang</Code> due
+            to its simplicity and performance advantages.
           </Text>
           <Text pt={2}>
-            I am looking for full-time positions as a Full-Stack Software
-            Engineer in pursuit of my dream position as a Product Manager or
-            Lead.
+            As a developer, I am always eager to learn and take on new
+            challenges, continually expanding my skills and staying up-to-date
+            with emerging technologies.
           </Text>
         </Box>
       </Stack>
