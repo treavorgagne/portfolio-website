@@ -1,5 +1,6 @@
-import { Box, Text, Stack, Image, Code, Link } from "@chakra-ui/react";
+import { Box, Text, Stack, Image, Link } from "@chakra-ui/react";
 import Headshot from "../assets/Headshot.jpg";
+import { CodeBlock } from "../components/CodeBlock";
 
 export const About = () => {
   return (
@@ -36,23 +37,24 @@ export const About = () => {
             </Link>{" "}
             with over 5 years of experience, including full-time, part-time, and
             co-op positions. In 2022, I completed my Bachelor of Software
-            Engineering (BSEng) with Honors from the University of Victoria
+            Engineering (BSEng) with honors from the University of Victoria
             (UVic).
           </Text>
           <Text pt={2}>
-            I have a strong background in full-stack software development,
-            working with Node.js frameworks such as React.js and Express.js. I
+            I have a strong background in Full-Stack Software Development,
+            working with <CodeBlock text="Node.js" />
+            frameworks such as <CodeBlock text="React.js and Express.js" />. I
             also have experience with both relational and non-relational
-            databases, including MySQL and MongoDB, and am proficient in various
-            software tools like Git, Postman, Splunk, and Twilio. With my broad
+            databases, including <CodeBlock text="MySQL and MongoDB" />, and am
+            proficient in various software tools like{" "}
+            <CodeBlock text="Git, Postman, Splunk, and Twilio" />. With my broad
             software knowledge and experience, I am confident in my ability to
             quickly adapt to new programming languages and technologies.
           </Text>
           <Text pt={2}>
             I have worked on various academic and personal projects using a
             range of programming languages and development tools. My preferred
-            language is{" "}
-            <Code fontSize={["18px", "24px", "26px", "28px"]}>Golang</Code> due
+            language is <CodeBlock text="Golang" />
             to its simplicity and performance advantages.
           </Text>
           <Text pt={2}>

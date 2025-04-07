@@ -1,6 +1,34 @@
 [
   {
+    "id": "ssi",
+    "date": "Oct 2022 - Current",
+    "name": "Full Stack Software Developer at SSi Canada",
+    "stacks": [
+      "Node.js",
+      "Express.js",
+      "React.js",
+      "MySql",
+      "Embedded JS",
+      "CSS",
+      "JQuery",
+      "Make",
+      "Bash",
+      "JSON"
+    ],
+    "tools": ["Splunk", "Twilio", "Git", "NPM", "Slack", "Table Plus"],
+    "practices": [
+      "Agile Development",
+      "Small Team",
+      "Stand-Ups",
+      "Unit Testing"
+    ],
+    "description": [
+      "Permenant Full-Stack Software Developer at SSi Canada. Where our mission is providing and building telecommunication services and other solutions to rural communites in Canada Territories and Nothern Quebec."
+    ]
+  },
+  {
     "id": "capestone",
+    "date": "May 2022 - Aug 2022",
     "name": "Scheduling Cap Stone Project",
     "stacks": ["Golang", "Python", "TypeScript"],
     "tools": ["Docker", "Heroku", "Github", "ZenHub", "Slack", "Discord"],
@@ -21,7 +49,8 @@
   },
   {
     "id": "government",
-    "name": "CHIS NRCan Software Developer Co-op",
+    "date": "May 2021 - Dec 2021",
+    "name": "Full Stack Software Developer at NR Canada Co-op",
     "stacks": ["HTML", "CSS", "JavaScript", "JQuery", "PHP", "MySQL", "LAMP"],
     "tools": ["GitLab", "Microsoft Teams", "Linux", "Apache"],
     "practices": ["Agile Development", "WCAG Complience"],
@@ -30,8 +59,20 @@
     ]
   },
   {
+    "id": "solaris",
+    "date": "Aug 2020 - Dec 2020",
+    "name": "Front-end Web Developer at Solaris Ent. Inc.",
+    "stacks": ["HMTL", "CSS", "Bootstrap", "JavaScript", "React.js"],
+    "tools": ["Heroku", "GitLab", "Rocket.Chat"],
+    "practices": ["Agile Development", "UX to UI"],
+    "description": [
+      "Part-time position developing a static website using React.js to bring a solar initiative start-up website to life. Transformed wireframes designed by the UX team to functional React.js code which was mobile friendly. Improved Front-end skills and knowledge."
+    ]
+  },
+  {
     "id": "ergo",
-    "name": "Full Stack Web Developer Ergonnomyx Tech. Canada Co-op",
+    "date": "Sept 2019 - Aug 2020",
+    "name": "Full Stack Web Developer Co-op at Ergonnomyx Tech. Canada",
     "stacks": [
       "Python",
       "Flask",
@@ -47,16 +88,6 @@
     "practices": ["Agile Development", "Start-Up", "CI/CD"],
     "description": [
       "An 8-month start-up developing two full-stack applications related to a standing desk including a web-application and an ecommerce website hosted on Heroku. The web-application was used to view usage data for users of the desk and the ecommerce site was used to purchase and customize the desk. For this co-op, I got to directly interact with the client to deliver code and receive immediate feedback on the changes made. As such, I implemented a cart checkout feature for the ecommerce website and a feature to view desk current and past uasge data on the web-app. On this co-op, I got to touch a wide range of programming stack and tools, such as PostgreSQL, MongoDB, and Heroku for CI/CD deployment."
-    ]
-  },
-  {
-    "id": "solaris",
-    "name": "Front-end Web Developer Solaris Ent. Inc. Part-time",
-    "stacks": ["HMTL", "CSS", "Bootstrap", "JavaScript", "React.js"],
-    "tools": ["Heroku", "GitLab", "Rocket.Chat"],
-    "practices": ["Agile Development", "UX to UI"],
-    "description": [
-      "Part-time position developing a static website using React.js to bring a solar initiative start-up website to life. Transformed wireframes designed by the UX team to functional React.js code which was mobile friendly. Improved Front-end skills and knowledge."
     ]
   }
 ]

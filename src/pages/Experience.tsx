@@ -17,7 +17,7 @@ export const Experience = () => {
         <GridItem w={"100%"} h={"100%"} rowSpan={1} colSpan={1}>
           <Text fontSize={["20px", "24px", "32px"]}>
             Here is a list of all my past work and notable software development
-            experiences over the last 5 years.
+            experiences.
           </Text>
 
           {experiences.map((exp) => (
@@ -29,6 +29,9 @@ export const Experience = () => {
                 </Heading>
               </Box>
               <Box>
+                <Text key={exp.id + exp.date} fontWeight={"600"}>
+                  {exp.date}
+                </Text>
                 {exp.description.map((d) => (
                   <Text key={exp.id} fontWeight={"500"} my={2}>
                     {d}

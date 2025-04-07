@@ -5,14 +5,14 @@
     "stacks": ["React.tsx", "Typescript", "Chakra UI"],
     "tools": ["GitHub", "AWS"],
     "link": "https://www.treavorgagne.com",
-    "description": "This is the static portfolio project you're currently navigating. This portfolio showcases my Front-end skills, projects, and work experience I have done over the past 5 years at UVic and on Co-ops. I developed this portfolio website using Chakra UI, a React component library, and TypeScript. Currently, hosted using AWS Amplify on a Route 53 custom domain."
+    "description": "This is the static website portfolio project you're now navigating. This portfolio showcases my Full-Stack skills, projects, and work experience I have completed. I developed this portfolio website using a React component library called Chakra UI, and React TypeScript. Currently, this project hosted using AWS Amplify on a Route 53 custom domain."
   },
   {
     "id": "pomodoro",
     "name": "Pomodoro timer and to do list",
     "stacks": ["React.js", "JavaScript", "Chakra UI"],
     "tools": ["GitHub", "Netlify"],
-    "link": "https://www.pptl.netlify.app/",
+    "link": "https://github.com/treavorgagne/productivity-web-app",
     "description": "This is a static React.js web application I developed to manage my time better using Pomodoro principles. The general idea behind this application is to make a to-do list and complete tasks during the work timer phases and take breaks during the break phases to avoid burnout."
   },
   {
@@ -20,8 +20,8 @@
     "name": "Horoscope Generator",
     "stacks": ["React.tsx", "Typescript"],
     "tools": ["GitHub", "Netlify"],
-    "link": "https://www.horoscope-gen.netlify.app/",
-    "description": "A simple 10-hour project I developed. This application produces the same horoscope for all 12 zodiac signs as a joke. Ultimately, I developed this application to improve my React.tsx skills and develop a mobile-friendly application."
+    "link": "https://github.com/treavorgagne/astrology-app",
+    "description": "A simple one page application project that produces the same horoscope for all 12 zodiac signs as a joke. Ultimately, I developed this application to improve my React.tsx skills and develop a mobile-friendly application."
   },
   {
     "id": "arm",
