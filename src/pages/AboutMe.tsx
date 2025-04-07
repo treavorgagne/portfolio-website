@@ -42,11 +42,11 @@ export const About = () => {
           </Text>
           <Text pt={2}>
             I have a strong background in Full-Stack Software Development,
-            working with <CodeBlock text="Node.js" />
-            frameworks such as <CodeBlock text="React.js and Express.js" />. I
-            also have experience with both relational and non-relational
-            databases, including <CodeBlock text="MySQL and MongoDB" />, and am
-            proficient in various software tools like{" "}
+            working with <CodeBlock text="Node.js" /> frameworks such as{" "}
+            <CodeBlock text="React.js and Express.js" />. I also have experience
+            with both relational and non-relational databases, including{" "}
+            <CodeBlock text="MySQL and MongoDB" />, and am proficient in various
+            software tools like{" "}
             <CodeBlock text="Git, Postman, Splunk, and Twilio" />. With my broad
             software knowledge and experience, I am confident in my ability to
             quickly adapt to new programming languages and technologies.
@@ -54,8 +54,8 @@ export const About = () => {
           <Text pt={2}>
             I have worked on various academic and personal projects using a
             range of programming languages and development tools. My preferred
-            language is <CodeBlock text="Golang" />
-            to its simplicity and performance advantages.
+            language is <CodeBlock text="Golang" /> to its simplicity and
+            performance advantages.
           </Text>
           <Text pt={2}>
             As a developer, I am always eager to learn and take on new
