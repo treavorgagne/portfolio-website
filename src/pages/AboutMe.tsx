@@ -54,8 +54,8 @@ export const About = () => {
           <Text pt={2}>
             I have worked on various academic and personal projects using a
             range of programming languages and development tools. My preferred
-            language is <CodeBlock text="Golang" /> to its simplicity and
-            performance advantages.
+            language is <CodeBlock text="Golang" /> because of its simplicity
+            and performance advantages.
           </Text>
           <Text pt={2}>
             As a developer, I am always eager to learn and take on new
