@@ -1,8 +1,8 @@
 [
   {
     "id": "ssi",
-    "date": "Oct 2022 - Current",
-    "name": "Full Stack Software Developer at SSi Canada",
+    "date": "Oct 2022 - Present",
+    "name": "Full Stack Software Engineer at SSi Canada",
     "stacks": [
       "Node.js",
       "Express.js",
@@ -23,7 +23,7 @@
       "Unit Testing"
     ],
     "description": [
-      "As a Full-Stack Software Developer position apart small development team dedicated to providing telecommunication services and solutions to rural communities in the Canadian Territories and Northern Quebec. I am fully responsibility for developing, testing, and maintaining the code I develop. This means I have complete ownership and responsibility over my features and services.",
+      "Full-Stack Software Engineer apart of a small development team dedicated to providing telecommunication services and solutions to rural communities in the Canadian Territories and Northern Quebec. I am responsible for designing partly, developing, testing, and maintaining the tasks I'm assigned. This means I have ownership and responsibility over my features and services.",
       "During my time at SSi Canada, I've worked on a variety of tasks, from small improvements to large-scale developments, covering both front-end and back-end. One of my key successes was developing a JavaScript input validation feature for POST requests. It ensures 100% prevention of requests with missing or invalid inputs and provides user-friendly warnings to help users correct mistakes. I also refactored a low-data email notification service by integrating SMS notifications through Twilio, supporting roaming and subscription renewals. This led to a 38% increase in user service usage. To improve performance, I created a dynamic front-end data loader for subscription data, reducing initial load time by 80% and full load time by 40%. Lastly, I worked closely with stakeholders and the customer care team to deliver key features and internal tools on time, ensuring they aligned with business objectives and customer needs."
     ]
   },
