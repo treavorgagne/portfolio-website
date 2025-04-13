@@ -6,7 +6,7 @@ import {
   useColorMode,
   Tooltip,
 } from "@chakra-ui/react";
-import { FaLinkedin, FaGithub, FaNewspaper } from "react-icons/fa";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { RiMailSendFill } from "react-icons/ri";
 
 export const Footer = () => {
