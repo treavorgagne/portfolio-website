@@ -44,28 +44,6 @@ export const Footer = () => {
             </Tooltip>
           </Box>
         ))}
-        <Box key="resumev2">
-          <Tooltip
-            placement="top"
-            hasArrow
-            colorScheme="blue"
-            label="Check out my resume"
-            openDelay={400}
-          >
-            <a
-              href="/Treavor-Gagne-Resume.pdf"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <Button
-                h={["40px", "60px"]}
-                bgColor={colorMode === "light" ? "white" : "gray.800"}
-              >
-                <FaNewspaper size={36} />
-              </Button>
-            </a>
-          </Tooltip>
-        </Box>
       </HStack>
     </Box>
   );
