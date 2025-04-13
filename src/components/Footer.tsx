@@ -29,7 +29,11 @@ export const Footer = () => {
               label={icon.tip}
               openDelay={400}
             >
-              <Link href={icon.link} target="_blank" rel="noopener noreferrer">
+              <Link
+                href={icon.link}
+                target="_blank"
+                rel={icon.isExternal ? "noopener" : "noopener noreferrer"}
+              >
                 <Button
                   h={["40px", "60px"]}
                   bgColor={colorMode === "light" ? "white" : "gray.800"}
@@ -51,23 +55,27 @@ const icons = [
     tip: "Contact me",
     icon: <RiMailSendFill size={36} />,
     link: "mailto:gagnetreavor@gmail.com",
+    isExternal: false,
   },
   {
     id: "linkedin",
     tip: "Link with me",
     icon: <FaLinkedin size={36} />,
     link: "https://www.linkedin.com/in/treavorgagne/",
+    isExternal: false,
   },
   {
     id: "github",
     tip: "See my GitHub Projects",
     icon: <FaGithub size={36} />,
     link: "https://github.com/treavorgagne?tab=repositories",
+    isExternal: false,
   },
   {
     id: "resume",
     tip: "Check out my resume",
     icon: <FaNewspaper size={36} />,
     link: "/Treavor-Gagne-Resume.pdf",
+    isExternal: true,
   },
 ];
