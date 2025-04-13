@@ -32,7 +32,7 @@ export const Footer = () => {
               <Link
                 href={icon.link}
                 target="_blank"
-                rel={icon.isExternal ? "noopener" : "noopener noreferrer"}
+                {...(icon.isExternal ? {} : { rel: "noopener noreferrer" })}
               >
                 <Button
                   h={["40px", "60px"]}
