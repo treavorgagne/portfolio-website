@@ -1,8 +1,12 @@
 import { Box, Text, Stack, Image, Link } from "@chakra-ui/react";
-import Headshot from "../assets/Headshot.jpg";
+import HeadshotLight from "../assets/Headshot.jpg";
+import HeadshotDark from "../assets/HeadshotAnime.jpg";
 import { CodeBlock } from "../components/CodeBlock";
+import { useColorModeValue } from "@chakra-ui/react";
 
 export const About = () => {
+  const HeadShot = useColorModeValue(HeadshotLight, HeadshotDark);
+
   return (
     <Box mx={"auto"} maxWidth={"1000px"}>
       <Stack direction={"row"}>
@@ -17,7 +21,7 @@ export const About = () => {
             maxWidth={"300px"}
             w={"100%"}
             alignSelf={"center"}
-            src={Headshot}
+            src={HeadShot}
             alt="Treavor Gagne Headshot"
             borderRadius={"50%"}
           />
