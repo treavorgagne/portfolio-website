@@ -8,6 +8,7 @@ import {
 } from "@chakra-ui/react";
 import { FaLinkedin, FaGithub, FaNewspaper } from "react-icons/fa";
 import { RiMailSendFill } from "react-icons/ri";
+import resume from "../assets/Treavor-Gagne-Resume.pdf";
 
 export const Footer = () => {
   const { colorMode } = useColorMode();
@@ -75,7 +76,7 @@ const icons = [
     id: "resume",
     tip: "Check out my resume",
     icon: <FaNewspaper size={36} />,
-    link: "/Treavor-Gagne-Resume.pdf",
+    link: resume,
     isExternal: true,
   },
 ];
