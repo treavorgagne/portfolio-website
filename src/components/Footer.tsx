@@ -6,8 +6,9 @@ import {
   useColorMode,
   Tooltip,
 } from "@chakra-ui/react";
-import { FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaNewspaper } from "react-icons/fa";
 import { RiMailSendFill } from "react-icons/ri";
+import resume from "../assets/resume_v2.0.0.pdf";
 
 export const Footer = () => {
   const { colorMode } = useColorMode();
@@ -63,5 +64,11 @@ const icons = [
     tip: "See my GitHub Projects",
     icon: <FaGithub size={36} />,
     link: "https://github.com/treavorgagne?tab=repositories",
+  },
+  {
+    id: "resume",
+    tip: "Check out my resume",
+    icon: <FaNewspaper size={36} />,
+    link: resume,
   },
 ];
